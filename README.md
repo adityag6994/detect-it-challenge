@@ -1,6 +1,6 @@
 # Detect-it Challenge
 
-![image](screenshots/0.png)
+![image](truth/0.png)
 
 ---
 ## Challenge
@@ -33,7 +33,12 @@ list<Rect> cars = aggregate(detections) {
 }
 ```
 
-Your code should read a file from the `input/` folder and save the result to a `solution/` folder, in similar format to the files in the `output/` folder. One file per image with a space-separated 4-tuple (x y width height) per detection rectangle, with each detection in a new line. Send us your code, the output it generated, and your rough estimate of how long you spent on it.
+Your code should read a file from the `input/` folder and save the result to a `solution/` folder, in similar format to the files in the `truth/` folder. Two files per image 
+
+* A text file with a space-separated 4-tuple (x y width height) per detection rectangle, with each detection in a new line
+* An image file showing the rectangles from the text file drawn on top of the input image
+
+Send us your code, the output it generated, and your rough estimate of how long you spent on this task.
 
 ## Task 2
 
